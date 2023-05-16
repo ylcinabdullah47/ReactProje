@@ -5,9 +5,6 @@ function App() {
   const [newItem, setNewItem] = useState("");
   const [items, setItems] = useState([]);
 
-
-
-
   function addItem() {
     if (!newItem) {
       alert("boş veri kayıt edemezsi");
